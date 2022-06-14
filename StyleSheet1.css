@@ -1,0 +1,18 @@
+﻿p{
+    background-color:azure;
+}
+h1{
+    background-color:aliceblue;
+    color:firebrick;
+    font-style:italic;
+}
+#para1{
+    text-align:center;
+    background-color:cadetblue;
+    text-decoration-style:solid;
+    color:chartreuse;
+}
+.commonfont{
+    font-family:Ebrima;
+
+}
