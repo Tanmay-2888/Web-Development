@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--<style>
+        #p1{
+            background-color:antiquewhite;
+            color:brown;
+            width:500px;
+            height:120px;
+        }
+    </style>-->
+    <meta charset="utf-8" />
+    <title>JQuery Demo</title>
+</head>
+<body>
+    <!--<p id="p1">
+        This is sample paragraph in page.
+    </p>-->
+    <input type="button" value="Add" id="btn1" />
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <!--<input type="button" value="show" id="btn2" />-->
+    
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
+            integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function () {
+
+
+            $("#btn1").click(function () {
+                var a = $("#t1").val();
+                var a = $("#t2").val();
+                var a = parseInt(a) + parseInt(b);
+                $("#t3").val(c);
+                $("#d1").text("Addition is " + c);
+                $("#d2").html("<b>Addition is " + c + "</b>");
+ 
+            })
+            
+        })
+    </script>
+</body>
+</html>
